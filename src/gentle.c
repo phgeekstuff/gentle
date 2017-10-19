@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include "gentle.h"
 
 /**
 * @brief Main entrypoint of Gentle.

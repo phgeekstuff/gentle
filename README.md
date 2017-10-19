@@ -1,2 +1,2 @@
 # gentle
-A lightweight Continuous Integration System.
+A Lightweight Multi-Stage Continuous Integration System.
