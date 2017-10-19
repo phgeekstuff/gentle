@@ -1,0 +1,7 @@
+input-files = src/gentle.c
+output-files = bin/gentle
+
+cflags = -Wall -Werror
+
+rule cc
+    command = cc $cflags -c $input-files -o $output-files
