@@ -10,7 +10,9 @@ from test import support
 class gentleSystemTest():
     
     # Only use setUp() and tearDown() if necessary
-    #def setUp(self):
+    def setUp(self):
+        """ Used to setup the system test """
+        self.app = "../bin/gentle"
 
     #def tearDown(self):
 
@@ -26,6 +28,3 @@ class gentleSystemTest():
  # Main entry point
  systemTest = gentleSystemTest()
  systemTest.start()
-
-
-
